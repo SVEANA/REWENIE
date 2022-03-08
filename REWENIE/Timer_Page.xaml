@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="REWENIE.Timer_Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Taimer"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="lbl"
+                   Text="Нажми кнопку"
+                   FontSize="Medium"
+                   BackgroundColor="AliceBlue">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Button x:Name="btn_timer"
+                    Text="Покажи таймер"
+                    FontSize="Large"
+                    Clicked="Btn_timer_Clicked">
+            </Button>
+            <Button x:Name="nazad_btn"
+                    Text="Обратно"
+                    FontSize="Large"
+                    Clicked="Nazad_btn_Clicked">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
