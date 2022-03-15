@@ -36,41 +36,46 @@ namespace REWENIE
                       
                  }
             };
-           
-
-
             redN = new BoxView
-            {
-                
-                Color = Color.Red,
-                CornerRadius = 50,
-                WidthRequest = 150,
-                HeightRequest = 300,
-                HorizontalOptions = LayoutOptions.CenterAndExpand,
-                VerticalOptions = LayoutOptions.CenterAndExpand
-                
-                
+            {               
+                Color = Color.Gray,
+                CornerRadius = 60,
+                WidthRequest = 500,
+                HeightRequest = 500,
+                HorizontalOptions = LayoutOptions.StartAndExpand,
+                VerticalOptions = LayoutOptions.StartAndExpand
+                               
             };
+            TapGestureRecognizer tap = new TapGestureRecognizer();
+            tap.Tapped += Tap_Tapped;
+            redN.GestureRecognizers.Add(tap);
+
             yellowN = new BoxView
             {
-                Color = Color.Yellow,
-                CornerRadius = 50,
-                WidthRequest = 150,
-                HeightRequest = 300,
+                Color = Color.Gray,
+                CornerRadius = 60,
+                WidthRequest = 300,
+                HeightRequest = 500,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
+            TapGestureRecognizer tap1 = new TapGestureRecognizer();
+            tap.Tapped += Tap_Tapped1;
+            yellowN.GestureRecognizers.Add(tap1);
+
             greenN = new BoxView
             {
-                Color = Color.Green,
-                CornerRadius = 50,
-                WidthRequest = 150,
-                HeightRequest = 300,
+                Color = Color.Gray,
+                CornerRadius = 60,
+                WidthRequest = 300,
+                HeightRequest = 500,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand
                
             };
-
+            TapGestureRecognizer tap2 = new TapGestureRecognizer();
+            tap.Tapped += Tap_Tapped2;
+            redN.GestureRecognizers.Add(tap2);
             btnn = new Button
             {
                 Text = "вкл!",
@@ -87,7 +92,22 @@ namespace REWENIE
             grid.Children.Add(btnn, 1, 3);
             Content = grid;
         }
-        
+
+        private void Tap_Tapped2(object sender, EventArgs e)
+        {
+            DisplayAlert("СТОЙ", "ВНИМАНИЕ", "ОК");
+        }
+
+        private void Tap_Tapped1(object sender, EventArgs e)
+        {
+            DisplayAlert("ИДИ", "НЕ ТОРОПИСЬ", "ОК");
+        }
+
+        private void Tap_Tapped(object sender, EventArgs e)
+        {
+            DisplayAlert("СТОЙ", "ВНИМАНИЕ", "ОК");
+        }
+
         private void Btnn_Clicked(object sender, EventArgs e)
         {
 
@@ -157,22 +177,16 @@ namespace REWENIE
                 
             }
         }
-         
-            
-            
-            
+
+        
+
+
+
 
         }
     
         
-            
-        
-            
-        
-                
-            
-
-            };
+  }
         
     
 
