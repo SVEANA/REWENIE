@@ -1,0 +1,207 @@
+﻿Перенаправление порта отладчика 8812.
+Обнаружение существующего процесса.
+> am start -a "android.intent.action.MAIN" -c "android.intent.category.LAUNCHER" -n "com.companyname.rewenie/crc64beb3edbc8fc7c39c.MainActivity"
+> Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.companyname.rewenie/crc64beb3edbc8fc7c39c.MainActivity }
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/REWENIE.Android.dll
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/FormsViewGroup.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/REWENIE.dll
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Activity.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Annotation.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Annotation.Experimental.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.AppCompat.AppCompatResources.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.AppCompat.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Arch.Core.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Arch.Core.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.AsyncLayoutInflater.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Browser.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.CardView.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Collection.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Concurrent.Futures.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.ConstraintLayout.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.ConstraintLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.CoordinatorLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.CursorAdapter.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.CustomView.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.DocumentFile.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.DrawerLayout.dll [External]
+[anyname.reweni] Late-enabling -Xcheck:jni
+[anyname.reweni] Unknown bits set in runtime_flags: 0x8000
+[anyname.reweni] Reinit property: dalvik.vm.checkjni= false
+[libc] Access denied finding property "runtime.mmitest.isrunning"
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.DynamicAnimation.dll [External]
+[anyname.reweni] QarthPatchMonintor::Init
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::StartWatch
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::WatchPackage: /data/hotpatch/fwkhotpatch/
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::CheckAndWatchPatch: /data/hotpatch/fwkhotpatch/com.companyname.rewenie
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::CheckAndWatchPatch: /data/hotpatch/fwkhotpatch/all
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::Run
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::Reading
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::CheckNotifyEvent
+[anyname.reweni] 
+[anyname.reweni] QarthPatchMonintor::CheckNotifyEvent before read
+[anyname.reweni] 
+[HwApiCacheMangerEx] apicache path=/storage/emulated/0 state=mounted key=com.companyname.rewenie#10203#256
+[HwApiCacheMangerEx] apicache path=/storage/emulated/0 state=mounted key=com.companyname.rewenie#10203#0
+[debug-app-helper] Checking if libmonodroid was unpacked to /data/app/com.companyname.rewenie-NjWJQghxOgNYhi2E96AXQQ==/lib/arm64/libmonodroid.so
+[debug-app-helper] Native libs extracted to /data/app/com.companyname.rewenie-NjWJQghxOgNYhi2E96AXQQ==/lib/arm64, assuming application/android:extractNativeLibs == true
+[debug-app-helper] Setting up for DSO lookup in app data directories
+[debug-app-helper] Added filesystem DSO lookup location: /data/app/com.companyname.rewenie-NjWJQghxOgNYhi2E96AXQQ==/lib/arm64
+[debug-app-helper] Using runtime path: /data/app/com.companyname.rewenie-NjWJQghxOgNYhi2E96AXQQ==/lib/arm64
+[debug-app-helper] checking directory: `/data/user/0/com.companyname.rewenie/files/.__override__/lib`
+[debug-app-helper] directory does not exist: `/data/user/0/com.companyname.rewenie/files/.__override__/lib`
+[debug-app-helper] Checking whether Mono runtime exists at: /data/user/0/com.companyname.rewenie/files/.__override__/libmonosgen-2.0.so
+[debug-app-helper] Checking whether Mono runtime exists at: /data/app/com.companyname.rewenie-NjWJQghxOgNYhi2E96AXQQ==/lib/arm64/libmonosgen-2.0.so
+[debug-app-helper] Mono runtime found at: /data/app/com.companyname.rewenie-NjWJQghxOgNYhi2E96AXQQ==/lib/arm64/libmonosgen-2.0.so
+[AwareBitmapCacher] init processName:com.companyname.rewenie pid=28791 uid=10203
+[AwareLog] AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@cd02307
+[AwareLog] AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@db53c34
+[monodroid] Creating public update directory: `/data/user/0/com.companyname.rewenie/files/.__override__`
+[monodroid-debug] Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8812,server=y,embedding=1
+[monodroid-gc] GREF GC Threshold: 46080
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Fragment.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Interpolator.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Legacy.Support.Core.UI.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Legacy.Support.Core.Utils.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Legacy.Support.V4.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Lifecycle.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Lifecycle.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModel.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Loader.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.LocalBroadcastManager.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Media.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.MultiDex.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Navigation.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Navigation.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Navigation.UI.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Preference.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Print.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.RecyclerView.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.SavedState.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.SlidingPaneLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.SwipeRefreshLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Tracing.Tracing.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.Transition.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.VectorDrawable.Animated.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.VectorDrawable.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.VersionedParcelable.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.ViewPager.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.AndroidX.ViewPager2.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Essentials.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Forms.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Forms.Platform.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Forms.Platform.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Forms.Xaml.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Google.Android.Material.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Xamarin.Google.Guava.ListenableFuture.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Mono.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Java.Interop.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnv.RegisterJniNatives(System.IntPtr, System.Int32, System.IntPtr, System.IntPtr, System.Int32)' to /Users/builder/azdo/_work/1/s/xamarin-android/src/Mono.Android/Android.Runtime/JNIEnv.cs:124 [0x00000].
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/System.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/Mono.Security.dll [External]
+Loaded assembly: data-0x7756861680 [External]
+Loaded assembly: data-0x775687fc80 [External]
+Loaded assembly: data-0x775688a880 [External]
+Loaded assembly: data-0x77568ff7c0 [External]
+Loaded assembly: data-0x775692cfc0 [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/netstandard.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointSendToIde(System.String)' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:410 [0x00000].
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/System.Core.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointCheckpoint()' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:405 [0x00000].
+[HwWidgetFactory] : successes to get AllImpl object and return....
+[anyname.reweni] Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+[anyname.reweni] Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+Thread started:  #2
+Thread started:  #3
+Thread started:  #4
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/System.Runtime.Serialization.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/System.Xml.dll [External]
+Loaded assembly: /data/data/com.companyname.rewenie/files/.__override__/System.ServiceModel.Internals.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.Forms.Platform.Android.AppLinks.dll
+Thread started:  #5
+[HiTouch_PressGestureDetector] onAttached, package=com.companyname.rewenie, windowType=1, mHiTouchRestricted=false
+[iGraphics] [0020080c] pn: com.companyname.rewenie, p: 28791
+[iGraphics] [0030080c] no spt app: com.companyname.rewenie
+[mali_winsys] EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+[Gralloc3] mapper 3.x is not supported
+[] APS:IFLoad:importExternalFunctions, search function createNewHwApsUtils failed, dlsym err:undefined symbol: createNewHwApsUtils
+[] APS:importExternalFunctions OK
+[HwViewRootImpl] removeInvalidNode jank list is null
+[AwareBitmapCacher] handleInit switch not opened pid=28791
+Thread started: <Thread Pool> #6
+Thread started: <Thread Pool> #7
+Thread started: <Thread Pool> #8
+Thread started: <Thread Pool> #9
+Thread started: <Thread Pool> #10
+Thread started: <Thread Pool> #11
+Thread started: <Thread Pool> #12
+Thread started: <Thread Pool> #13
+Thread started: <Thread Pool> #14
+Thread started: <Thread Pool> #15
+Thread started: <Thread Pool> #16
+Thread started: <Thread Pool> #17
+Thread started: <Thread Pool> #18
+Thread started: <Thread Pool> #19
+Thread finished: <Thread Pool> #7
+Поток 0x7 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #10
+Поток 0xa завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #18
+Поток 0x12 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #14
+Поток 0xe завершился с кодом 0 (0x0).
+[IInputConnectionWrapper] getExtractedText on inactive InputConnection
+[IInputConnectionWrapper] getTextBeforeCursor on inactive InputConnection
+[libEGL] EGLNativeWindowType 0x77562f9190 disconnect failed
+[ZrHung.AppEyeUiProbe] not watching, wait.
+Thread finished: <Thread Pool> #8
+Поток 0x8 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #12
+Поток 0xc завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #15
+Поток 0xf завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #11
+Поток 0xb завершился с кодом 0 (0x0).
+[ZrHung.AppEyeUiProbe] restart watching
+[mali_winsys] EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+[HwViewRootImpl] removeInvalidNode all the node in jank list is out of time
+[Settings] Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+[HiTouch_HiTouchSensor] User setup is finished.
+Thread started: <Thread Pool> #20
+Thread started: <Thread Pool> #21
+Thread started: <Thread Pool> #22
+Thread started: <Thread Pool> #23
+Thread started: <Thread Pool> #24
+Thread started: <Thread Pool> #25
+Thread started: <Thread Pool> #26
+Thread started: <Thread Pool> #27
+[HwViewRootImpl] removeInvalidNode all the node in jank list is out of time
+[libEGL] EGLNativeWindowType 0x77534a4390 disconnect failed
+[ZrHung.AppEyeUiProbe] not watching, wait.
+Thread finished: <Thread Pool> #25
+Поток 0x19 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #20
+Поток 0x14 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #9
+Поток 0x9 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #19
+Поток 0x13 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #23
+Поток 0x17 завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #27
+Поток 0x1b завершился с кодом 0 (0x0).
+Thread finished: <Thread Pool> #22
+Поток 0x16 завершился с кодом 0 (0x0).
+[anyname.reweni] Explicit concurrent copying GC freed 10132(551KB) AllocSpace objects, 0(0B) LOS objects, 53% free, 1788KB/3836KB, paused 194us total 50.483ms
+Thread finished: <Thread Pool> #21
+Поток 0x15 завершился с кодом 0 (0x0).

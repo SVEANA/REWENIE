@@ -99,9 +99,7 @@ namespace REWENIE
             Title = "ПОКАЗ";
             Content = tGrid;
             }
-            
-            
-
+                    
 
         void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {

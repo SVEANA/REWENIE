@@ -41,7 +41,7 @@ namespace REWENIE
                 Vibration.Vibrate();
                 box.Rotation += 10;
             }
-            catch (Exception exp)
+            catch (Exception)
             {
               
             }

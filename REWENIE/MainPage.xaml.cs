@@ -40,12 +40,24 @@ namespace REWENIE
                 BackgroundColor = Color.Aqua,
             };
             slider_btn.Clicked += Slider_btn_Clicked;
+            Button sfetof_btn = new Button
+            {
+                Text = "LIGHTS",
+                TextColor = Color.Brown,
+                BackgroundColor = Color.Aqua,
+            };
+            sfetof_btn.Clicked += sfetof_btn_Clicked;
             StackLayout st = new StackLayout
             {
-                Children = { sled_btn, timer_btn, box_btn, slider_btn }
+                Children = { sled_btn, timer_btn, box_btn, slider_btn, sfetof_btn }
             };
             st.BackgroundColor = Color.FromRgb(50, 50, 50);
             Content = st;
+        }
+
+        private async void sfetof_btn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Sfetof_Page1());
         }
 
         private async void Slider_btn_Clicked(object sender, EventArgs e)
